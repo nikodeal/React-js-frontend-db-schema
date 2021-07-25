@@ -1,0 +1,119 @@
+.side-div-container {
+  width: 70%;
+}
+
+.title h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #388e3c;
+  margin: 50px 0 0;
+}
+.title h3 button {
+  padding: 0.4rem 0.8rem;
+  font-size: 11px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background: black;
+}
+.title-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: -10px 0;
+}
+.title-div button {
+  width: 45%;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem 0;
+  margin: 0.8rem auto;
+  background-color: #ccc;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 0.1rem 0.1rem black;
+  cursor: pointer;
+}
+.single-todo p:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-todo {
+  border: 2px solid black;
+  margin: 0.5rem 0;
+}
+.single-todo p {
+  margin: 0 0;
+  color: gray;
+  padding-left: 3px;
+}
+.single-todo p span {
+  font-weight: 700;
+  color: black;
+}
+.single-todo p button {
+  padding: 0.5rem 0.5rem 0.3rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background: #388e3c;
+  border-radius: 50%;
+  margin: 2px;
+}
+.single-post {
+  border: 2px solid black;
+  padding: 0.3em;
+  margin: 0.5rem 0;
+}
+.single-post p {
+  color: gray;
+  margin: 2px auto;
+  padding-left: 3px;
+}
+.single-post p span {
+  font-weight: 700;
+  color: black;
+}
+
+.form-container {
+  background-color: white;
+  padding: 1rem;
+}
+.form-title {
+  color: #388e3c;
+  text-align: center;
+}
+.form-ptag {
+  text-transform: capitalize;
+}
+.form-input {
+  width: 95%;
+  margin: auto;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+ 
+  color: #212121;
+}
+.form-btns-cont button{
+  margin-left: 10px;
+ padding: .4rem .8rem;
+  font-size: 11px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background: black;
+}
+.form-btns-cont button:nth-child(1){
+ color: #ef5350;
+}

@@ -1,0 +1,112 @@
+body{
+ background-color: #f5f5f5;
+}
+.header{
+  background-color: #212121;
+  font-size: 2rem;
+  padding: 10px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.typewriter{
+  width: 10.5rem;
+}
+.typewriter h1 {
+  color: #388e3c;
+  font-family:'Courier New', Courier, monospace;
+  overflow: hidden; 
+  border-right: .15em solid #388e3c ; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: 4px; 
+  font-size: 2rem;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+.nav-btns button{
+background: transparent;
+border: 1px solid #388e3c;
+border-radius: 50%;
+padding: 10px 13px;
+outline: none;
+color: #388e3c;
+margin: 0 5px 5px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: .5rem;
+  
+}
+
+.users-container{
+  width: 50%;
+  padding: .3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.form-container {
+  background-color: white;
+  padding: 1rem;
+
+}
+.form-title {
+  color: #388e3c;
+  text-align: center;
+}
+.form-ptag {
+  text-transform: capitalize;
+  
+}
+.form-input {
+  width: 95%;
+  margin: auto;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+ 
+  color: #212121;
+}
+.form-btns-cont{
+  text-align: center;
+}
+.form-btns-cont button{
+  margin-left: 10px;
+ padding: .4rem .8rem;
+  font-size: 11px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  color: #ef5350;
+  background: black;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #388e3c  }
+}
+@media (max-width: 600px) {
+  .typewriter{
+    width: 10.5rem;
+  }
+  .typewriter h1 {
+      font-size: 2rem;
+  }
+}
